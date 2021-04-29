@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const ButtonStyled = styled.button`
+  font-family: 'UniSansRegular';
   width: ${({ stretch }) => `${stretch ? '100%' : 'auto'}`};
   text-align: center;
   font-size: 1rem;

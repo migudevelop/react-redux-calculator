@@ -1,16 +1,13 @@
 export const DARK_THEME = {
   name: 'dark',
-  navBarColor: '#ffffffdd',
-  navBarTextColor: '#393c3d',
-  primaryColor: '#0077c8',
-  backgroundColor: '#282c34',
+  primaryColor: '#5abef9',
+  backgroundColor: '#252a48',
   textColor: '#ffffff',
   buttonTextColor: '#ffffff',
-  gray1: '#71787c',
-  gray2: '#44494d',
-  formBackgroundColor: '#202325',
-  inputBorderColor: '#a9aeb4',
-  listItemHoverBackground: '#2a2e30',
+  displayBgColor: '#f1f3ff',
+  displayTextColor: '#252a48',
+  themeSwitchBg: '#ffffff',
+  themeSwitchCircleBg: '#252a48',
 }
 
 export const LIGHT_THEME = {
@@ -21,4 +18,6 @@ export const LIGHT_THEME = {
   buttonTextColor: '#ffffff',
   displayBgColor: '#ffffff',
   displayTextColor: '#444444',
+  themeSwitchBg: '#252a48',
+  themeSwitchCircleBg: '#ffffff',
 }

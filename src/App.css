@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'UniSansRegular';
+  src: url('fonts/UniSansThin.otf') format('truetype');
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'UniSansHeavy';
+  src: url('fonts/UniSansHeavy.otf') format('truetype');
+  font-style: normal;
+  font-display: auto;
+}

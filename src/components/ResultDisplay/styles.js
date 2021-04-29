@@ -8,6 +8,7 @@ export const ResultDisplayStyled = styled.div`
 
 export const InputStyled = styled.input`
   height: 2.5em;
+  font-family: 'UniSansRegular';
   font-size: 1.5rem;
   border-radius: 0.5em;
   text-align: right;
