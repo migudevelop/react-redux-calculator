@@ -66,6 +66,13 @@ const operatorReducer = (state = INITIAL_STATE, action) => {
             ...state,
             prevValue: state.prevValue / parseFloat(state.resultDisplay),
           }
+        case PERCENTAGE:
+          return {
+            ...state,
+            prevValue: Math.floor(
+              (state.prevValue * parseFloat(state.resultDisplay)) / 100
+            ),
+          }
         default:
           return { ...state, prevValue: parseFloat(state.resultDisplay) }
       }

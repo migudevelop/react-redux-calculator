@@ -22,6 +22,7 @@ const ThemeSwitchButton = ({ id, toogleTheme }) => {
         type="checkbox"
         onChange={handleChange}
         checked={isChecked}
+        readOnly={true}
       />
       <ThemeItemStyled htmlFor={id}>
         <CircleItemStyled isChecked={isChecked}>

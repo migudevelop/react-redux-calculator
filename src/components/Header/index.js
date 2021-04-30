@@ -1,10 +1,10 @@
 import { HeaderStyled, Title } from './styles'
-import SwitchButton from 'components/SwitchButton'
+import ThemeSwitchButton from 'components/ThemeSwitchButton'
 
 const Header = () => (
   <HeaderStyled>
     <Title>Calculator</Title>
-    <SwitchButton />
+    <ThemeSwitchButton />
   </HeaderStyled>
 )
 
